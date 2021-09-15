@@ -24,3 +24,12 @@ def printUnivList(ulist,num):
   for i in range(num):
     u = ulist[i]
     print(tplt.format(u[0],u[1],u[2],chr(12288))
+ 
+def main(){
+  url = 'http://baidu.com/'
+  uinfo = []
+  html = getHTMLText(url)
+  fillUnivList(uinfo, html)
+  printUnivList(uinfo, 3)
+
+main()
