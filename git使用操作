@@ -1,0 +1,11 @@
+#记录git bash中的使用操作
+git config --global user.name 'Fancynot04'
+git config --global user.email '3241951559@qq.com'
+创建一个文件夹，再在文件夹中创建文件夹test（使之成为respotories）
+cd test（转到当前文件夹）--> git init(使test文件夹变为respotries)--> ls -a 显示文件路径
+touch a1.php(在test中创建源文件)--> git status （查看缓冲区状态）
+创建文件：git add a1.php (放入缓冲区)--> git commit -m 'add a1.php'(放入仓库)
+修改文件： vi a1.php(vi编辑器修改后保存并退出> --> git commit -m '第一次修改文件并提交到仓库'
+删除文件: rm -f a1.php(从仓库中移除文件放入缓冲区) --> git rm a1.php(从缓冲区中删除)--> git commit -m '第一次删除文件'
+over 
+to be continue...
